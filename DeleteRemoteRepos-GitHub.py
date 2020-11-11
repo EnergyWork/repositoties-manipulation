@@ -2,7 +2,7 @@ import requests, json
 
 user = 'EnergyWork'
 repo = 'test-01'
-token = 'd18de929b6321cf47642ad75593d0756d7905df3'
+token = ''
 headers = { 
     'Authorization' : f'token {token}',
     'Accept': 'application/vnd.github.v3+json' 

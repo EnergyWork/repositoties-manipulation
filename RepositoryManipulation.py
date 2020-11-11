@@ -4,7 +4,7 @@ from git.repo.base import Repo
 
 class RepositoryManipulation:
     __user = 'EnergyWork'
-    __token = 'd18de929b6321cf47642ad75593d0756d7905df3'
+    __token = ''
     __headers = { 
         'Authorization' : f'token {__token}',
         'Accept': 'application/vnd.github.v3+json' 
